@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Tangerine&family=Updock&display=swap');
+
+.header {
+    position: fixed;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(to right, blue, white, blue);
+    width: 100%;
+    margin-top: 0;
+    color: blue;
+    height: 60px;
+    padding-left: 130px;
+    padding-top: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+
+#ins {
+    float: right;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size: 40px;
+    color: crimson;
+    margin-top: 80px;
+    transition: color 1s, background-color 1s, transform 1s;
+}
+
+#ins:hover {
+    background-color: rgba(218, 15, 56, 0);
+    color: aliceblue;
+    transform: scale(1.5);
+}
+
+.big_image {
+    width: 100%;
+    border-radius: 30px;
+}
+
+#play_button {
+    background-color: blue;
+    color: aliceblue;
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-family: 'Updock', cursive;
+    font-size: 40px;
+    transition: transform 1s, color 1s, background-color 1s;
+}
+
+#play_button:hover {
+    transform: scale(1.5);
+    color: blue;
+    background-color: aliceblue;
+}
+
+#status {
+    background-color: green;
+    color: aliceblue;
+    border: 2px solid green;
+    border-radius: 20px;
+    font-family: 'Updock', cursive;
+    font-size: 40px;
+    transition: transform 1s, color 1s, background-color 1s;
+    height: 60px;
+    width: 500px;
+}
+
+#status:hover {
+    transform: scale(1.5);
+    color: green;
+    background-color: aliceblue;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    color: cornflowerblue;
+    background-color: aliceblue;
+    width: 100%;
+    font-family: serif;
+    font-size: 30px;
+    transition: color 1s, background-color 1s;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer:hover{
+    color: aliceblue;
+    background-color: cornflowerblue;
+}
+
+.instruction_image{
+    width:45%;
+    display:inline-block;
+}
+
+.m_header{
+    color: blue;
+    font-family: 'tangerine', cursive;
+    font-size: 50px;
+}
+
+#close_button{
+    float:right;
+    border: none;
+    color: grey;
+    font-family: cursive;
+    background-color: rgba(53, 53, 125, 0);
+    transition: color 0.5s;
+}
+
+#close_button:hover{
+    color: black;
+}
+
+video{
+    background-image: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 21px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
